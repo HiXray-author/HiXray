@@ -66,7 +66,7 @@ Visualization of the performance of both the baseline SSD and the MuBo-integrate
 
 ## License
 
-The images and the corresponding annotations in OPIXray Dataset can be used **ONLY for academic purposes**, **NOT for commercial purposes**. 
+The images and the corresponding annotations in HiXray Dataset can be used **ONLY for academic purposes**, **NOT for commercial purposes**. 
 
 Copyright © 2020 by State Key Lab of Software Development Environment, Beihang University
 
