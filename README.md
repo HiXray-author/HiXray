@@ -101,10 +101,6 @@ Visualization of the performance of both the baseline SSD and the MuBo-integrate
     <img src="images/performance.png"/>
 </div>
 
-# Acknowledgement
-
-In this project, we implemented DOAM on PyTorch based on [amdegroot](https://github.com/amdegroot/ssd.pytorch)
-
 ## License
 
 The images and the corresponding annotations in HiXray Dataset can be used **ONLY for academic purposes**, **NOT for commercial purposes**. 
