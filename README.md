@@ -73,7 +73,7 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
 
    (3) python test.py --trained_model /mnt/model/Mubo/weights/Mubo.pth --imagesetfile /mnt/cvpr_dataset/test/test_name.txt
 
-   **trained_model **is the weight file you want to test
+   **trained_model** is the weight file you want to test
 
 ## Results
 Comparing with Feature Pyramid Mechanisms:
@@ -88,6 +88,10 @@ Visualization of the performance of both the baseline SSD and the MuBo-integrate
     <img src="images/performance.png"/>
 </div>
 
+# Acknowledgement
+
+In this project, we implemented DOAM on PyTorch based on [amdegroot](https://github.com/amdegroot/ssd.pytorch)
+
 ## License
 
 The images and the corresponding annotations in HiXray Dataset can be used **ONLY for academic purposes**, **NOT for commercial purposes**. 
@@ -96,6 +100,4 @@ Copyright © 2020 by State Key Lab of Software Development Environment, Beihang 
 
 All rights reserved.
 
-# Acknowledgement
 
-In this project, we implemented DOAM on PyTorch based on [amdegroot](https://github.com/amdegroot/ssd.pytorch)
