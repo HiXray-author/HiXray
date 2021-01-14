@@ -52,16 +52,16 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
 
 	HiXray dataset is available only for ACADEMIC PURPOSE, if you are interested in our dataset, feel free to contact rstao@buaa.edu.cn.
 2. If you want to train your model, execute the following command:
-   (1) change root to `MuBo`
+   change root to `MuBo`
    ```
    cd MuBo
    ```
 
-   (2) Change the value of HiXray_ROOT variable in MuBo/data/HiXray.py file to the path where the training set is located, for example, 
+   Change the value of HiXray_ROOT variable in MuBo/data/HiXray.py file to the path where the training set is located, for example, 
    ```
    HiXray_ROOT = "/mnt/cvpr_dataset/train/"
    ```
-   (3) run `train.py`
+   run `train.py`
    ```
    python train.py --save_folder /mnt/model/Mubo/save/ --image_sets /mnt/cvpr_dataset/train/train_name.txt --transfer /mnt/ssd300_mAP_77.43_v2.pth
    ```
@@ -72,16 +72,16 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
    **transfer** indicates the pre-trained weight of SSD on VOC0712 (available at [here](https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth)).
 
 3. If you want to test our model, execute the following command:
-   (1) change root to `MuBo`
+   change root to `MuBo`
    ```
    cd MuBo
    ```
 
-   (2) Change the value of HiXray_ROOT variable in MuBo/data/HiXray.py file to the path where the testing set is located, for example, 
+   Change the value of HiXray_ROOT variable in MuBo/data/HiXray.py file to the path where the testing set is located, for example, 
    ```
    HiXray_ROOT = "/mnt/cvpr_dataset/test/"
    ```
-   (3) run `test.py`
+   run `test.py`
    ```
    python test.py --trained_model /mnt/model/Mubo/weights/Mubo.pth --imagesetfile /mnt/cvpr_dataset/test/test_name.txt
    ```
