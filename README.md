@@ -51,6 +51,30 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
 1. Access HiXray dataset
 
 	HiXray dataset is available only for ACADEMIC PURPOSE, if you are interested in our dataset, feel free to contact rstao@buaa.edu.cn.
+2. If you want to train your model, execute the following command:
+
+   (1) cd MuBo
+
+   (2) Change the value of HiXray_ROOT variable in MuBo/data/HiXray.py file to the path where the training set is located, for example, HiXray_ROOT = "/mnt/cvpr_dataset/train/"
+
+   (3) python train.py --save_folder /mnt/model/Mubo/save/ --image_sets /mnt/cvpr_dataset/train/train_name.txt --transfer /mnt/ssd300_mAP_77.43_v2.pth
+
+   **save_folder** is used to save the weight file obtained by training the model, 
+
+   **image_sets**  is the path to a TXT file that saves all the picture names used for training, 
+
+   **transfer** indicates the pre-trained weight of SSD on VOC0712
+
+3. If you want to test our model, execute the following command:
+
+   (1) cd MuBo 
+
+   (2) Change the value of HiXray_ROOT variable in MuBo/data/HiXray.py file to the path where the testing set is located, for example, HiXray_ROOT = "/mnt/cvpr_dataset/test/"
+
+   (3) python test.py --trained_model /mnt/model/Mubo/weights/Mubo.pth --imagesetfile /mnt/cvpr_dataset/test/test_name.txt
+
+   **trained_model **is the weight file you want to test
+
 ## Results
 Comparing with Feature Pyramid Mechanisms:
 
@@ -71,3 +95,7 @@ The images and the corresponding annotations in HiXray Dataset can be used **ONL
 Copyright © 2020 by State Key Lab of Software Development Environment, Beihang University
 
 All rights reserved.
+
+# Acknowledgement
+
+In this project, we implemented DOAM on PyTorch based on [amdegroot](https://github.com/amdegroot/ssd.pytorch)
