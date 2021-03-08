@@ -22,7 +22,6 @@ This repository is the official **HiXray dataset**.
 - [Install](#install)
 - [Results](#results)
 - [Acknowledgement](#Acknowledgement)  
-- [License](#license)
 
 ## Overview
 
@@ -100,13 +99,5 @@ Visualization of the performance of both the baseline SSD and the MuBo-integrate
 <div align=center>
     <img src="images/performance.png"/>
 </div>
-
-## License
-
-The images and the corresponding annotations in HiXray Dataset can be used **ONLY for academic purposes**, **NOT for commercial purposes**. 
-
-Copyright © 2020 by State Key Lab of Software Development Environment, Beihang University
-
-All rights reserved.
 
 
