@@ -4,7 +4,7 @@ This repository is the official **HiXray dataset**.
 
 #### LIM framework:
 
-![MuBo](images/framework.png)
+![MuBo](images/Framework.jpg)
 
 #### HiXray dataset:
 
