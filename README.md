@@ -2,18 +2,17 @@
 
 This repository is the official **HiXray dataset**.
 
-#### LIM framework:
-
-![MuBo](images/Framework.jpg)
-
 #### HiXray dataset:
 
 <div align=center>
     <img src="images/samples.png"/>
 </div>
 
-[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+#### LIM framework:
+
+![MuBo](images/Framework.jpg)
+
+
 
 ## Table of Contents
 
