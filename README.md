@@ -1,8 +1,8 @@
-# [High-quality X-ray Security Inspection Benchmark and Multi-directional Boundary Intensification Model for Prohibited Items Detectio]
+# [Towards Real-world X-ray Security Inspection: A High-Quality Benchmark And Lateral Inhibition Module For Prohibited Items Detection]
 
 This repository is the official **HiXray dataset**.
 
-#### MuBo framework:
+#### LIM framework:
 
 ![MuBo](images/framework.png)
 
@@ -25,7 +25,7 @@ This repository is the official **HiXray dataset**.
 
 ## Overview
 
-Prohibited items detection in X-ray images often plays an important role in protecting public safety, which often deals with color-monotonous and luster-insufficient objects, resulting in unsatisfactory performance. Till now, there have been rare studies touching this topic due to the lack of specialized high- uality datasets. In this work, we first present a High-quality X-ray Security Inspection (HiXray) image dataset, which contains 102,928 common prohibited items of 8 categories. It is the first high-quality dataset for prohibited items detection, gathered from the real-world airport security inspection and annotated by professional security inspectors. Besides, we find that the boundary in X-ray images provides strongly discriminative information for accurate object detection, especially when objects are overlapped and occluded with each other. We further propose Multidirectional Boundary Intensification (MuBo) model, which intensifies the boundary feature by Bidirectional Propagation across network layers, and Boundary Aggregation inside each network layer. Specifically, Bidirectional Propagation maximizes the boundary information flowing by a dense mechanism bidirectionally and Boundary Aggregation captures the fine-grained boundary information from four directions. MuBo is versatile and can be applied to the SOTA detection approaches. We evaluate it extensively on HiXray and OPIXray dataset and the results demonstrate that our approach improves SOTA detection methods.
+Prohibited items detection in X-ray images often plays an important role in protecting public safety, which often deals with color-monotonous and luster-insufficient objects, resulting in unsatisfactory performance. Till now, there have been rare studies touching this topic due to the lack of specialized high-quality datasets. In this work, we first present a High-quality X-ray (HiXray) security inspection image dataset, which contains 102,928 common prohibited items of 8 categories. It is the largest dataset of high quality for prohibited items detection, gathered from the real-world airport security inspection and annotated by professional security inspectors. Besides, for accurate prohibited item detection, we further propose the Lateral Inhibition Module (LIM) inspired by the fact that humans recognize these items by ignoring irrelevant information and focusing on identifiable characteristics, especially when objects are overlapped with each other. Specifically, LIM, the elaborately designed flexible additional module, suppresses the noisy information flowing maximumly by the Bidirectional Propagation (BP) module and activates the most identifiable charismatic, boundary, from four directions by Boundary Activation (BA) module. We evaluate our method extensively on HiXray and OPIXray and the results demonstrate that it outperforms SOTA detection methods.
 
 ## Dataset
 
