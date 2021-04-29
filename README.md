@@ -1,4 +1,4 @@
-# [Towards Real-world X-ray Security Inspection: A High-Quality Benchmark And Lateral Inhibition Module For Prohibited Items Detection]
+# [Towards]
 
 This repository is the official **HiXray dataset**.
 
