@@ -50,7 +50,7 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
 ## Install
 1. Access HiXray dataset
 
-	HiXray dataset is available only for ACADEMIC PURPOSE, if you are interested in our dataset, feel free to contact rstao@buaa.edu.cn.
+	HiXray dataset is available only for ACADEMIC PURPOSE, If you want to access the dataset, please sign the PDF <a href="https://rstao95.github.io/Commitment.pdf">file</a> and send it to rstao AT buaa.edu.cn. After receiving your request, we will rely with the download link soon.
 2. If you want to train your model, execute the following command:
    change root to `MuBo`
    ```
