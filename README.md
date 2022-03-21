@@ -101,4 +101,16 @@ Visualization of the performance of both the baseline SSD and the MuBo-integrate
     <img src="images/performance.png"/>
 </div>
 
+## Citation
+If this work helps your research, please cite the following paper.
+```
+@inproceedings{Tao:ICCV21,
+  author    = {Renshuai Tao and Yanlu Wei and Xiangjian Jiang and Hainan Li and Haotong Qin and Jiakai Wang and Yuqing Ma and Libo Zhang and Xianglong Liu*},
+  title     = {Towards Real-world X-ray Security Inspection: A High-quality Benchmark and Lateral Inhibition Module for Prohibited Items Detection},
+  booktitle = {IEEE ICCV},
+  year      = {2021},
+  } 
+
+```
+
 
