@@ -26,6 +26,11 @@ After receiving your request, we will rely with the download link soon.
 
 ## Dataset
 
+#### Download link
+(China mainland, BaiduNetdisk) https://pan.baidu.com/s/1ugMhHtEp4G7yEF_WbLt8DA password: buaa
+
+(Other area, Google Drive) https://drive.google.com/drive/folders/1zlDLw36SQp5Y9Oi-TzUmZc4zFKk6nHgW?usp=sharing
+
 In this project, we build the largest High-quality X-ray Security Inspection dataset.
 
 - All images of HiXray dataset are annotated manually by professional inspectors from an international airport, and the standard of annotating is based on the standard of training security inspectors.
@@ -44,10 +49,7 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
 	    <img src="images/dataset_comparison.png"/>
 	</div>
 ## Install
-1. Access HiXray dataset
-
-	HiXray dataset is available only for ACADEMIC PURPOSE, If you want to access the dataset, please sign the PDF <a href="https://rstao95.github.io/Commitment.pdf">file</a> and send it to rstao AT buaa.edu.cn. After receiving your request, we will rely with the download link soon.
-2. If you want to train your model, execute the following command:
+1. If you want to train your model, execute the following command:
    change root to `MuBo`
    ```
    cd MuBo
@@ -67,7 +69,7 @@ In this project, we build the largest High-quality X-ray Security Inspection dat
 
    **transfer** indicates the pre-trained weight of SSD on VOC0712 (available at [here](https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth)).
 
-3. If you want to test our model, execute the following command:
+2. If you want to test our model, execute the following command:
    change root to `MuBo`
    ```
    cd MuBo
