@@ -1,8 +1,8 @@
 # [Towards]
 
 This repository is the official **HiXray dataset**.
-If you want to access the dataset, please sign the PDF <a href="https://rstao95.github.io/Commitment.pdf">file</a> and send it to rstao AT buaa.edu.cn.
-After receiving your request, we will rely with the download link soon.
+#### HiXray Dataset Download Link
+Please go to the [webpage](https://github.com/DIG-Beihang/XrayDetection) and download according to the prompts.
 
 #### HiXray dataset:
 
@@ -25,8 +25,6 @@ After receiving your request, we will rely with the download link soon.
 
 
 ## Dataset
-# Download link
-Please go to the [webpage](https://github.com/DIG-Beihang/XrayDetection) and download according to the prompts.
 <!-- 
 #### Download link
 (China mainland, BaiduNetdisk) https://pan.baidu.com/s/1ugMhHtEp4G7yEF_WbLt8DA password: buaa
