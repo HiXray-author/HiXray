@@ -25,6 +25,8 @@ After receiving your request, we will rely with the download link soon.
 
 
 ## Dataset
+# Download link
+Please go to the [webpage](https://github.com/DIG-Beihang/XrayDetection) and download according to the prompts.
 <!-- 
 #### Download link
 (China mainland, BaiduNetdisk) https://pan.baidu.com/s/1ugMhHtEp4G7yEF_WbLt8DA password: buaa
