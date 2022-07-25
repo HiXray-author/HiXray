@@ -1,8 +1,7 @@
 # [Towards]
 
 This repository is the official **HiXray dataset**.
-#### HiXray Dataset Download Link
-Please go to the [webpage](https://github.com/DIG-Beihang/XrayDetection) and download according to the prompts.
+#### HiXray Dataset Download Link: Please go to the [webpage](https://github.com/DIG-Beihang/XrayDetection) and download according to the prompts.
 
 #### HiXray dataset:
 
