@@ -24,12 +24,12 @@ This repository is the official **HiXray dataset**.
 
 
 ## Dataset
-<!-- 
+ 
 #### Download link
 (China mainland, BaiduNetdisk) https://pan.baidu.com/s/1ugMhHtEp4G7yEF_WbLt8DA password: buaa
 
 (Other area, Google Drive) https://drive.google.com/drive/folders/1zlDLw36SQp5Y9Oi-TzUmZc4zFKk6nHgW?usp=sharing
--->
+
 
 In this project, we build the largest High-quality X-ray Security Inspection dataset.
 
