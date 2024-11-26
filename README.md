@@ -4,7 +4,7 @@ This repository is the official **HiXray dataset**.
 #### Download link
 (China mainland, BaiduNetdisk) https://pan.baidu.com/s/1ugMhHtEp4G7yEF_WbLt8DA password: buaa
 
-(Other area, Google Drive) https://drive.google.com/drive/folders/1zlDLw36SQp5Y9Oi-TzUmZc4zFKk6nHgW?usp=sharing
+(Other area, Google Drive) https://drive.google.com/file/d/1jEk-h5Uv0-d3RdLf8cSHKXhuhalqD3l4/view?usp=sharing
 
 #### HiXray dataset:
 
